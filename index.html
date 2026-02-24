@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Game Skeleton</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main id="game-container">
+        <!-- Section 1: Stats -->
+        <header class="stats-panel">
+            <h1>Game Title</h1>
+            <div class="stat-item">
+                <span class="label">Currency:</span>
+                <span id="currency-display">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="label">Per Second:</span>
+                <span id="per-second-display">0</span>
+            </div>
+        </header>
+
+        <!-- Section 2: Main Action -->
+        <section class="action-panel">
+            <button id="main-click-btn" class="primary-btn">Click Me!</button>
+        </section>
+
+        <!-- Section 3: Upgrades/Shop -->
+        <section class="shop-panel">
+            <h2>Upgrades</h2>
+            <div id="upgrade-list">
+                <!-- An example upgrade button -->
+                <button id="upgrade-1-btn" class="shop-btn">
+                    Buy Upgrade (Cost: <span id="u1-cost">10</span>)
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
